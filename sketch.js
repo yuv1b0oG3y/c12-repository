@@ -73,6 +73,6 @@ function createRed() {
 redL = createSprite(random(50, 350),40, 10, 10);
 redL.addImage(redImg);
 redL.scale=0.06;
-  redL.velocityY = 3;
-  redL.lifetime = 150;
+redL.velocityY = 3;
+redL.lifetime = 150;
 }
