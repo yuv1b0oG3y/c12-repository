@@ -43,6 +43,8 @@ if (frameCount % 80 == 0) {
       createApples();
      } else if (select_sprites == 2) {
        createOrange();
+     } else if (select_sprites = 3) {
+       createRed();
      }
    }
 
