@@ -36,7 +36,7 @@ function draw() {
   
    drawSprites();
 
-var select_sprites = 3
+var select_sprites = Math.round(random(1, 3))
 
 if (frameCount % 80 == 0) {
    if (select_sprites == 1) {
